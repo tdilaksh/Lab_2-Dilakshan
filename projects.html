@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--Dilakshan T.S
+    100886716-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products</title>
+
+    <!-- CSS section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./content/app.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            margin-right: 1rem;
+        }
+        main {
+            padding: 4rem 0;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 3rem;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-spider"></i> WEB6201-Dilakshan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="projects.html"><i class="fas fa-project-diagram"></i> Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html"><i class="fas fa-map-signs"></i> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i> Sign-In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html"><i class="fas fa-user-plus"></i> Sign-Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container" id="products">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Images/Product1.webp" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h2 class="card-title">Web Development Course Website</h2>
+                    <p class="card-text">This project involved creating a website for an online web development course. I implemented features like user authentication, course enrollment, and progress tracking.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Images/Product2.webp" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h2 class="card-title">E-commerce Platform</h2>
+                    <p class="card-text">Developed an e-commerce platform from scratch using modern technologies like React.js, Node.js, and MongoDB. The platform supports product browsing, shopping cart functionality, and secure payment processing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="Images/Product3.webp" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h2 class="card-title">Mobile App for Charity Organization</h2>
+                    <p class="card-text">Designed and developed a mobile app for a charity organization to facilitate donations and volunteer sign-ups. The app features push notifications, event calendars, and donation tracking.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<!-- JavaScript section -->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>
